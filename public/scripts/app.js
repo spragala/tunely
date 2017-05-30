@@ -89,7 +89,7 @@ $(document).ready(function() {
     console.log("Problem fetching data.");
   }
 
-  $('#album-form').on('click', function(event){
+  $('form').on('submit', function(event){
     console.log("this is the event" + event)
     event.preventDefault();
     $.ajax({
