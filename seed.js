@@ -1,8 +1,7 @@
 var db = require("./models");
 
-var albumsList =[
+var albumsList =[];
   // data here soon!
-];
 
 db.Album.remove({}, function(err, albums){
   // code in here runs after all albums are removed
