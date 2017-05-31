@@ -94,7 +94,6 @@ $(document).ready(function() {
     </div>`
     }
 
-
   $.ajax({
     method: 'GET',
     url: '/api/album',
